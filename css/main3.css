@@ -1,0 +1,112 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.form-group{
+    width: 440px;
+    height: 440px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    padding: 1rem 0.5rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgba(5, 36, 58, 0.93);
+}
+.block{
+    width: 95%;
+    height: 50px;
+    float: left;
+    margin-bottom: 25px;
+}
+.block .block-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-bottom: 20px;
+    background-color: #11cc85;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.block .block-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-bottom: 20px;
+    background-color: rgba(108, 107, 107, 0.66);
+    color: #949191;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.h1{
+    color: white;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+input{
+    width:40%;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    font-size: 15px;
+    margin: 15px 0.5rem;
+    color: rgb(166, 165, 165);
+}
+input[type = email]{
+    width:95%;
+    padding: 0.5rem 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-bottom: 15px;
+    color: rgb(166, 165, 165);
+
+}
+input[type = password]{
+    width:95%;
+    padding: 0.5rem 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-bottom: 35px;
+    color: rgb(166, 165, 165);
+
+}
+input[id = firstName]{
+    margin-left: -40px;
+    width: 48%;
+}
+input[id = lastName]{
+    margin-left: -52px;
+    color: rgb(166, 165, 165);
+    width: 45%;
+
+}
+label{
+    width: 35%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: right;
+    color: rgb(166, 165, 165);
+    font-family: Helvetica, Arial, sans-serif ;
+}
+input[type=submit]{
+    width: 95%;
+    height: 50px;
+    display: block;
+    margin-top: 30px;
+    background-color: #11cc85;
+    color: #ffffff;
+    border-color: #11cc85;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif ;
+}

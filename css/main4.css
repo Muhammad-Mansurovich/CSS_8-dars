@@ -1,0 +1,164 @@
+body{
+    background-color: rgba(136, 136, 156, 0.45);
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.form-group{
+    width: 440px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    padding: 1rem 0.5rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgba(2, 12, 17, 0.85);
+
+}
+.block{
+     width: 440px;
+     height: 70px;
+     margin-bottom: 25px;
+     margin-left: -8.5px;
+     margin-top: -16px;
+     border-radius: 6px;
+     text-align: center;
+     padding-top: 20px;
+     box-sizing: border-box;
+     color: rgba(220, 220, 220, 0.61);
+     background-color: rgba(136, 136, 156, 0.73);
+     font-size: 20px;
+ }
+input{
+    width:95%;
+    padding: 0.5rem 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(2, 12, 17, 0.8);
+    font-size: 15px;
+    margin: 15px 0.5rem;
+    border-radius: 4px;
+    background-color: rgba(136, 136, 156, 0.73);
+}
+
+input[type = email]{
+    width:95%;
+    padding: 0.5rem 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(2, 12, 17, 0.8);
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: rgba(136, 136, 156, 0.73);
+
+}
+input[type = password]{
+    width:95%;
+    padding: 0.5rem 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(2, 12, 17, 0.8);
+    margin-bottom: 15px;
+    border-radius: 4px;
+
+    background-color: rgba(136, 136, 156, 0.73);
+}
+input[type = password2]{
+    width:95%;
+    padding: 0.5rem 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(2, 12, 17, 0.8);
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background-color: rgba(136, 136, 156, 0.73);
+}
+input[value = SIGNUP]{
+
+}
+
+label{
+    width: 35%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: right;
+    color: rgb(95, 93, 93);
+    font-family: Helvetica, Arial, sans-serif ;
+}
+label[for = UserName]{
+    margin-left: -15px;
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+}
+label[for = email]{
+    margin-left: -15px;
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+}
+label[for = password]{
+    margin-left: -15px;
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+}
+label[for = password2]{
+    margin-left: -15px;
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+}
+
+.mini-block{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 1px;
+    margin: 3px 0.5rem;
+    float: left;
+}
+.mini-block:active{
+    background-color: #44ab41;
+}
+.near{
+    color: rgb(175, 175, 175);
+}
+.signup{
+    width: 17%;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(94, 164, 252);
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    float: left;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif ;
+}
+.colorEnd{
+    color: white;
+}
+.color{
+    color: white;
+}
+.textEnd{
+    color: rgba(255, 253, 253, 0.76);
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 12px;
+}
+.fullStop{
+    font-size: 30px;
+    margin-left: 0.5rem;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    color: rgba(136, 136, 156, 0.73);
+}
+.clear{
+    clear: both;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 12px;
+}
